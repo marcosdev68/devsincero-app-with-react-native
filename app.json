@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Dev Sincero",
+    "description": "Tenha mensagens 'Motivadoras' no seu dia a dia como programador.",
+    "slug": "appdevsincero",
+    "privacy": "public",
+    "sdkVersion": "30.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "android":{
+      "package":"com.codeblue.appdevsincero"
+    },
+    // "splash": {
+    //   "image": "./assets/splash.png"
+    // },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
